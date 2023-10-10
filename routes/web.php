@@ -21,3 +21,18 @@ Route::get('/', function () {
 Route::get('/dashbord', function (){
     return view("dashboard.dashboard");
 });
+Route::get('/orders', function (){
+    return view("dashboard.dashboard");
+});
+Route::get('/zone_price', function (){
+    return view("dashboard.dashboard");
+});
+Route::get('/delivery_type', function (){
+    return view("dashboard.dashboard");
+});
+Route::get('/empolyees', function (){
+    return view("dashboard.dashboard");
+});
+Route::get('/finance', function (){
+    return view("dashboard.dashboard");
+});

@@ -1,0 +1,39 @@
+/* COLOR VARIABELS LIGHT*/
+:root{
+    --background: #F9F9F9;
+    --primary_blue: #46B3DF;
+    --primary_blue_low_opacity: #46b3df47;
+}
+/* COMMON */
+.background {
+    background: var(--background);
+}
+.br_15 {
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+.shadow_container {
+    background: var(--White, #fff);
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.05);
+}
+.blue_border{
+    border: 1.5px solid var(--primary_blue_low_opacity)  ;
+}
+.text_size_23{
+    font-size: 22px;
+}
+.text_size_17{
+    font-size: 17px;
+}
+.text_size_14 {
+    font-size: 14px;
+}
+.text_left_webkit{
+    text-align: -webkit-left;
+}
+.text_right_webkit{
+    text-align: -webkit-right;
+}
