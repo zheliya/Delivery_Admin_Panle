@@ -18,21 +18,21 @@ Route::get('/', function () {
 });
 
 
-Route::get('/dashbord', function (){
+Route::get('/dashboard', function (){
     return view("dashboard.dashboard");
 });
 Route::get('/orders', function (){
-    return view("dashboard.dashboard");
+    return view("orders.orders");
 });
 Route::get('/zone_price', function (){
-    return view("dashboard.dashboard");
+    return view("zonePrice.zonePrice");
 });
 Route::get('/delivery_type', function (){
-    return view("dashboard.dashboard");
+    return view("deliveryType.deliveryType");
 });
-Route::get('/empolyees', function (){
-    return view("dashboard.dashboard");
+Route::get('/employees', function (){
+    return view("employees.employees");
 });
 Route::get('/finance', function (){
-    return view("dashboard.dashboard");
+    return view("finance.finance");
 });

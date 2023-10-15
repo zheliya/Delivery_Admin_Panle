@@ -31,6 +31,7 @@
                 </div>
             </div>
         </div>
+
         <div class="br_15 blue_border shadow_container flex items-center">
             <div class="md:flex items-center w-full">
                 <div class="md:w-2/6 mr-3 pl-2 text_right_webkit">
@@ -43,6 +44,7 @@
                 </div>
             </div>
         </div>
+
         <div class="br_15 blue_border shadow_container flex items-center">
             <div class="md:flex items-center w-full">
                 <div class="md:w-2/6 mr-3 pl-2 text_right_webkit">
@@ -57,4 +59,12 @@
         </div>
     </div>
 
-@stop
+
+
+
+
+
+
+
+
+    @stop
